@@ -29,33 +29,52 @@ header {
   font: #D0D0D0;
   color: #858585;
   position: relative;
+  display: flex;
   width: 100%;
   max-width: 100%;
   max-height: 8%;
-  border-top: 2vw solid transparent;
-  border-left: 5vw solid transparent;
+  border-left: 6vw solid transparent;
 }
 
 header img {
   max-width: 100%;
   width: 100%;
   max-height: 100%;
-  min-width: 100%;
 }
 
 header a, header a:visited, header a:active {
   color: #858585;
 }
 
-header ul {
+header div {
   margin: 0;
   padding: 0;
   display: flex;
+  /* padding: 0.5vw 0 0.5vw 1vw; */
+
 }
 
-header li {
-  padding: 0.5vw 0 0.5vw 1vw;
+.upload {
+  color: #FFFFFF;
+  background-color: #DA3B31;
+  float: left;
+  display: block;
+  border-left: 2.71vw solid transparent;
+  border-right: 2.71vw solid transparent;
+  border-top: 1vw solid transparent;
+  border-bottom: 1vw solid transparent;
+  position: relative;
 }
+
+.upload-text {
+  font-size: 1.5vw;
+}
+
+.upload a, .upload a:visited, .upload a:active {
+  color: #FFFFFF;
+}
+
+
 
 /* left section */
 
@@ -68,7 +87,6 @@ header li {
   width: 20%;
   height: 100%;
   font-size: 2vw;
-  border-top: 1vw solid transparent;
 }
 
 .left li {
@@ -135,7 +153,6 @@ header li {
   background-color: #2B3134;
   color: #FFFFFF;
   border-left: 10vw solid transparent;
-  border-right: 0 solid transparent;
   border-bottom: 2vw solid transparent;
   border-top: 2vw solid transparent;
   margin: 0 0 0 0;
@@ -227,13 +244,9 @@ padding: 0 0 0 3vw;
   background-color: #24282A;
   float: left;
   display: block;
-  border-collapse: collapse;
   position: relative;
   width: 10%;
   height: 100%;
-  border-left: 0vw solid transparent;
-  border-right: 1vw solid transparent;
-  border-top: 0 solid transparent;
 }
 
 /* footer */
