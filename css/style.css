@@ -1,0 +1,265 @@
+/* reset */
+
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* body */
+
+body, html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: #24282A;
+  }
+
+/* header */
+
+header {
+  background-color: #FFFFFF;
+  font: #D0D0D0;
+  color: #858585;
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  max-height: 8%;
+  border-top: 2vw solid transparent;
+  border-left: 5vw solid transparent;
+}
+
+header img {
+  max-width: 100%;
+  width: 100%;
+  max-height: 100%;
+  min-width: 100%;
+}
+
+header a, header a:visited, header a:active {
+  color: #858585;
+}
+
+header ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+header li {
+  padding: 0.5vw 0 0.5vw 1vw;
+}
+
+/* left section */
+
+.left {
+  background-color: #24282A;
+  color: #6D757C;
+  float: left;
+  position: relative;
+  display: block;
+  width: 20%;
+  height: 100%;
+  font-size: 2vw;
+  border-top: 1vw solid transparent;
+}
+
+.left li {
+  padding: 0 10vw 1.5vw 0;
+}
+
+.left-top {
+  float: left;
+  position: relative;
+  border-bottom: 5vw solid transparent;
+  border-top: 3vw solid transparent;
+}
+
+
+#guide, #subscriptions {
+  color: #4B5254;
+  font-size: 1.5vw;
+}
+
+.Disiz, .MisterV {
+  color: #FFFFFF;
+}
+
+.left-bottom {
+  border-top: 10vw solid transparent;
+}
+
+.subscription-list {
+  border-left: 2vw solid transparent;
+}
+
+.left-bottom-list {
+  color: #6D757C;
+}
+
+.left a, .left a:visited, .left a:active {
+  color: #6D757C;
+}
+
+/* center section */
+
+.center {
+  background-color: #161A1C;
+  float: left;
+  display: block;
+  border-collapse: collapse;
+  position: relative;
+  width: 70%;
+  border-left: 0vw solid transparent;
+  border-right: 0vw solid transparent;
+  object-fit: scale-down;
+  overflow: hidden;
+}
+
+
+.youtube-video {
+  width: 100%;
+  background-color: black;
+  margin: 0 0 0 0;
+}
+
+.video-name {
+  display: flex;
+  background-color: #2B3134;
+  color: #FFFFFF;
+  border-left: 10vw solid transparent;
+  border-right: 0 solid transparent;
+  border-bottom: 2vw solid transparent;
+  border-top: 2vw solid transparent;
+  margin: 0 0 0 0;
+}
+
+.video-name li {
+  padding: 0 15vw 0 0;
+}
+
+.video-actions-row1 {
+  display: flex;
+  background-color: #23282A;
+  color: #6D757C;
+  border-left: 3.5vw solid transparent;
+  border-right: 3vw solid transparent;
+  border-top: 3vw solid transparent;
+  border-bottom: .1vw solid transparent;
+  position: relative;
+  width: 100%;
+  margin: 0 0 0 0;
+}
+
+.video-actions-row2 {
+  display: flex;
+  background-color: #23282A;
+  color: #6D757C;
+  border-left: 13vw solid transparent;
+  border-right: 3vw solid transparent;
+  border-top: 0 solid transparent;
+  border-bottom: 3vw solid transparent;
+  position: relative;
+  width: 100%;
+  margin: 0 0 0 0;
+}
+
+.video-actions-row1 a, .video-actions-row1 a:visited, .video-actions-row1 a:active {
+  color: #white;
+}
+
+.video-actions-row2 a, .video-actions-row2 a:visited, .video-actions-row2 a:active {
+}
+
+.video-actions-row1 li {
+padding: 0 0 0 3vw;
+}
+
+.video-actions-row2 li {
+padding: 0 0 0 3vw;
+}
+
+/* center-comment section */
+
+.comments {
+  background-color: #FFFFFF;
+  border-left: 10.5vw solid transparent;
+  border-right: 3vw solid transparent;
+  border-top: 4vw solid transparent;
+  border-bottom: 0 solid transparent;
+  position: relative;
+  width: 100%;
+  height: 200%;
+}
+
+.comments li {
+  padding: 0 0 .8vw 0;
+}
+
+.username {
+  color: #3C7AB3;
+  font-size: 2vw;
+}
+
+.comment-age {
+  color: #8DA2B3;
+}
+
+.voting-total {
+  color: #92BF44;
+}
+
+.voting li {
+  padding: 0 0 2vw 0;
+  display: inline-flex;
+}
+
+/* right section */
+
+.right {
+  background-color: #24282A;
+  float: left;
+  display: block;
+  border-collapse: collapse;
+  position: relative;
+  width: 10%;
+  height: 100%;
+  border-left: 0vw solid transparent;
+  border-right: 1vw solid transparent;
+  border-top: 0 solid transparent;
+}
+
+/* footer */
+
+footer {
+  position: fixed;
+  bottom: -40vw;
+  height: 40.5vw;
+  clear: both;
+  width: 100%;
+  color: #FFFFFF;
+  background-color: red;
+}
+
+
+@media only screen and (min-width : 768px) {
+/* Overrides css for larger screens */
+
+/* header */
+
+/* title */
+
+/* article */
+
+/* body  */
+
+/* footer */
+
+}
